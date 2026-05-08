@@ -1,0 +1,95 @@
+```md id="mkxg44"
+# System Overview
+
+## Project Description
+
+The Intelligent Dual-Axis Solar PV Tracking System is designed to improve solar energy capture efficiency by dynamically orienting a photovoltaic panel toward the optimal sunlight direction throughout the day.
+
+The project studies and compares two solar tracking approaches:
+- Sensor-based reactive tracking
+- Predictive azimuth/time-based tracking
+
+---
+
+## System Architecture
+
+### Input Layer
+The system receives sunlight information through:
+- LDR sensor inputs
+- Time & solar position calculations
+
+---
+
+### Control Layer
+The Arduino Nano processes:
+- Light intensity differences
+- Position calculations
+- Tracking correction logic
+
+The controller then determines the required panel orientation.
+
+---
+
+### Actuation Layer
+Servo/DC motors rotate the solar panel:
+- Horizontally (Azimuth Axis)
+- Vertically (Elevation Axis)
+
+This enables dual-axis tracking functionality.
+
+---
+
+## Tracking Modes
+
+### Mode 1 — LDR Tracking
+The system reacts dynamically to sunlight intensity detected by LDR sensors.
+
+Advantages:
+- Real-time response
+- Simple implementation
+- Low computational requirements
+
+---
+
+### Mode 2 — Time/Azimuth Tracking
+The system estimates solar position based on:
+- Time of day
+- Solar azimuth angle
+- Solar elevation angle
+
+Advantages:
+- Predictive operation
+- Reduced sensor dependency
+- Improved tracking consistency
+
+---
+
+## Planned Software Integration
+
+### MATLAB & Simulink
+Planned simulation modules include:
+- Solar position modeling
+- Tracking angle analysis
+- Efficiency comparison
+- Energy gain estimation
+
+---
+
+## Future Smart Features
+
+The project may later integrate:
+- IoT monitoring
+- Fault detection systems
+- Dashboard visualization
+- Predictive maintenance
+- Digital twin concepts
+
+---
+
+## Expected Outcomes
+
+- Improved solar alignment accuracy
+- Better irradiance capture
+- Enhanced understanding of solar tracking systems
+- Comparative analysis of tracking methodologies
+```

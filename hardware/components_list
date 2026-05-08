@@ -1,0 +1,70 @@
+```md id="yffgnh"
+# Hardware Components List
+
+## Main Components
+
+| Component | Purpose |
+|---|---|
+| Arduino Nano | Main microcontroller |
+| LDR Sensors | Sunlight intensity detection |
+| Servo/DC Motors | Panel movement & positioning |
+| Solar PV Mini Panel | Energy collection |
+| Breadboard | Circuit prototyping |
+| Jumper Wires | Electrical connections |
+| Power Supply/Battery | System power source |
+| Mechanical Frame | Dual-axis support structure |
+
+---
+
+## Sensors
+
+### LDR Sensors
+Used for detecting directional sunlight intensity differences to control solar panel orientation.
+
+Typical configuration:
+- Top sensor
+- Bottom sensor
+- Left sensor
+- Right sensor
+
+---
+
+## Actuation System
+
+### Servo Motors
+Used for:
+- Horizontal rotation (azimuth axis)
+- Vertical rotation (elevation axis)
+
+---
+
+## Optional Future Components
+
+| Component | Purpose |
+|---|---|
+| RTC Module (DS3231) | Time-based tracking |
+| ESP32 | IoT monitoring |
+| WiFi Module | Wireless communication |
+| INA219 Sensor | Current monitoring |
+| DHT11/DHT22 | Temperature monitoring |
+
+---
+
+## Mechanical Structure
+
+The tracking structure is designed to:
+- Rotate along two axes
+- Maintain solar panel alignment
+- Support automated movement
+- Allow future expansion for smart tracking features
+
+---
+
+## Safety Considerations
+
+- Stable frame mounting
+- Proper motor current handling
+- Secure electrical connections
+- Controlled movement limits
+- Weather protection for outdoor testing
+```
